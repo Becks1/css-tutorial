@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buttons</title>
+</head>
+<body>
+    <style>
+.subscribe {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 30px;
+  margin-left: 30px;
+  background-color: rgba(225, 0, 0, 0.9);
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity 1s;
+  
+}
+.subscribe:hover {
+    background-color: white;
+    color: rgba(225, 0, 0, 0.9);
+    border-width: 2px;
+    border-style: solid;
+    opacity: 0.8;
+}
+.tweet {
+    font-size: 20px;
+    color: white;
+    background-color: rgba(0, 140, 255, 0.8);
+    border: none;
+    padding: 10px;
+    margin-right: 30px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: box-shadow 0.15s;
+    margin-bottom: 100px;
+    
+}
+.tweet:hover {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.15);
+}
+.tweet:active {
+    opacity: 0.7;
+}
+.enter {
+    color: aqua;
+    background-color: blue;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.enter:hover {
+    color: blue;
+    background-color: white;
+    border: 2px;
+    border-style: solid;
+}
+.subscribe {
+    display: block;
+    margin-bottom: 30px;
+}
+.purple {
+    height: 150px;
+    width: 200px;
+    background: purple;
+    border: 1px;
+    
+}
+/*this is for grid*/
+.div-1 {
+    /* width: 100px;
+    height: 100px; */
+    background-color: blue;
+}
+.div-2 {
+    /* width: 100px;
+    height: 100px; */
+    background-color:red;
+}
+.div-3 {
+    /* width: 100px;
+    height: 100px; */
+    background-color: blue;
+}
+.div-4 {
+    /* width: 100px;
+    height: 100px; */
+    background-color: red;
+}
+.div-5 {
+    /* width: 100px;
+    height: 100px; */
+    background-color: blue;
+}
+.div-6 {
+    /* width: 100px;
+    height: 100px; */
+    background-color: red;
+}
+.practice {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 100px 100px;
+    margin-bottom: 100px;
+    
+}
+/*this is for flex box*/
+.flex-1 {
+    width: 100px;
+    height: 100px; 
+    background-color: aqua;
+}
+.flex-2 {
+    width: 100px;
+    height: 100px; 
+    background-color: pink;
+}
+.flex-3 {
+    width: 100px;
+    height: 100px; 
+    background-color: aqua;
+}
+.flex-4 {
+    width: 100px;
+    height: 100px; 
+    background-color: pink;
+}
+.flex-5 {
+    width: 100px;
+    height: 100px; 
+    background-color: aqua;
+}
+.flex-6 {
+    width: 100px;
+    height: 100px; 
+    background-color: pink;
+    margin-bottom: 100px;
+}
+.flexbox {
+    display: flex;
+    flex-direction: column;
+}
+/*this is for microsoft logo*/
+.red {
+    background: #f25022;
+}
+.green {
+background: #7fba00;
+}
+.blue {
+    background: #00a4ef;
+}
+.yellow {
+    background:#ffb900 ;
+}
+.microsoft {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 100px 100px;
+    
+    row-gap: 12px;
+    column-gap: 12px;
+}
+    </style>
+   <button class="subscribe">Subscribe</button> 
+   <button class="tweet">Tweet</button>
+   <button class="enter">Enter</button>
+ 
+   <div class="practice">
+  <div class="div-1">div 1</div>
+  <div class="div-2">div 2</div>
+  <div class="div-3">div 3</div>
+  <div class="div-4">div 4</div>
+  <div class="div-5">div 5</div>
+  <div class="div-6">div 5</div>
+</div>
+<div class="flexbox">
+<div class="flex-1">1</div>
+<div class="flex-2">2</div>
+<div class="flex-3">3</div
+<div class="flex-4">4</div>
+<div class="flex-5">5</div>
+<div class="flex-6">6</div>
+</div>
+<div class="microsoft">
+<div class="red"></div>
+<div class="green"></div>
+<div class="blue"></div>
+<div class="yellow"></div>
+</div>
+</html>
